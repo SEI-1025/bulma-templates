@@ -1,10 +1,10 @@
 //console.log('[main.js] is connected');
 
 let buttonIn = document.querySelector('button');
-console.log(buttonIn);
+// console.log(buttonIn);
 
 let navBar = document.querySelector('.navbar-end').childNodes;
-//console.log(navBar);
+console.log(navBar);
 navBar[1].textContent = "Hello";
 navBar[3].textContent = "World";
 navBar[5].textContent = "From";
